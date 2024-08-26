@@ -1,17 +1,14 @@
 
+
 # Running Your Custom Linux on QEMU
 
 This guide will help you run your custom-built Linux kernel for the Raspberry Pi 3B on QEMU.
 
 ## Prerequisites
 
-Make sure you have QEMU installed. You can install it on your system using:
+Make sure you have QEMU installed. its ez so run qemu with
 
-```bash
-sudo apt update && sudo apt install qemu-system-aarch64
-
-
-```bash
+bash
 qemu-system-aarch64 \
     -M raspi3b \
     -kernel 6.6Image \
@@ -25,4 +22,3 @@ qemu-system-aarch64 \
     -m 1024 \
     -device usb-mouse \
     -device usb-kbd
-

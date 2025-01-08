@@ -2,7 +2,7 @@
 
 # Running Your Custom Linux on QEMU
 
-This guide will help you run your custom-built Linux kernel for the Raspberry Pi 3B on QEMU.
+This guide will help you run your custom-built (or my-bult) Linux kernel for the Raspberry Pi 3B on QEMU.
 
 ## Prerequisites
 
